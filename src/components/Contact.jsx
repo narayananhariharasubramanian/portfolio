@@ -9,15 +9,15 @@ const Contact = () =>{
                 </p>
             </div>
             <div className='max-w-[500px] w-full mt-3'>
-            <form method="POST" action="https://getform.io/f/qaQQk5an" className='grid'>
+            <form method="POST" action="https://getform.io/f/qaQQk5an" className='grid justify-center'>
                 <label className='py-3'>Name</label>
-                <input name="name" type="text" className='sm:w-[395px] md:w-[500px] px-2 text-black'></input>
+                <input name="name" type="text" className='w-[320px] md:w-[500px] px-2 text-black'></input>
 
                 <label className='py-3'>Email</label>
-                <input name="email" type="text" className='sm:w-[395px] md:w-[500px] px-2 text-black'></input>
+                <input name="email" type="text" className='w-[320px] md:w-[500px] px-2 text-black'></input>
 
                 <label className='py-3'>Message</label>
-                <textarea name="message" type="text" className='sm:w-[395px] md:w-[500px] h-[150px] px-2 text-black'></textarea>
+                <textarea name="message" type="text" className='w-[320px] md:w-[500px] h-[150px] px-2 text-black'></textarea>
 
                 <button type="submit" className='mt-4 border-2 w-[150px] mx-auto hover:bg-[#962f93]'>Get in touch</button>
             </form>
