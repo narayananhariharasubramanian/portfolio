@@ -6,7 +6,7 @@ const Workmodal = ({ isOpen, onClose, comp, children }) => {
     let height=150;
     console.log(comp) 
     if(comp==='NTT' || comp==="FIS" ){
-      height = 225;
+      height = 250;
     }
 
     return (
