@@ -30,11 +30,11 @@ const Navbar = ()=>{
 
         {/* Mobile Menu */}
         <ul className={!nav?'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li><Link to='home' duration={500} smooth>Home </Link></li>
-                <li><Link to='about' duration={500} smooth>About </Link></li>
-                <li><Link to='skills' duration={500} smooth>Skills </Link></li>
-                <li><Link to='work' duration={500} smooth>Work </Link></li>
-                <li><Link to='contact' duration={500} smooth>Contact </Link></li>
+                <li><Link to='home' duration={500} smooth onClick={handleClick}>Home </Link></li>
+                <li><Link to='about' duration={500} smooth onClick={handleClick}>About </Link></li>
+                <li><Link to='skills' duration={500} smooth onClick={handleClick}>Skills </Link></li>
+                <li><Link to='work' duration={500} smooth onClick={handleClick}>Work </Link></li>
+                <li><Link to='contact' duration={500} smooth onClick={handleClick}>Contact </Link></li>
             </ul>
 
         {/*Social Menu*/}
