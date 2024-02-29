@@ -41,16 +41,16 @@ const Navbar = ()=>{
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#326fa8] hover:ml-[-10px] duration-300'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href='https://www.linkedin.com/in/narayanan-h/'>LinkedIn <FaLinkedin size={30} /></a>
+                    <a className='flex justify-between items-center w-full text-grey-300' href='https://www.linkedin.com/in/narayanan-h/' target="_blank">LinkedIn <FaLinkedin size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#4f575e] hover:ml-[-10px] duration-300'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href="https://github.com/narayananhariharasubramanian">GitHub <FaGithub size={30} /></a>
+                    <a className='flex justify-between items-center w-full text-grey-300' href="https://github.com/narayananhariharasubramanian" target="_blank">GitHub <FaGithub size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#338645] hover:ml-[-10px] duration-300'>
                     <Link to="contact" duration={500} smooth>Email </Link><HiOutlineMail size={30} />
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] bg-[#85287d] hover:ml-[-10px] duration-300'>
-                    <a className='flex justify-between items-center w-full text-grey-300' href="https://docs.google.com/document/d/1rrDPVo8IpEevRaIkYbQnmQGxxo6DAjZh/edit?usp=sharing&ouid=108361725737586246012&rtpof=true&sd=true">Resume <BsFillPersonLinesFill size={30} /></a>
+                    <a className='flex justify-between items-center w-full text-grey-300' target="_blank" href="https://docs.google.com/document/d/1rrDPVo8IpEevRaIkYbQnmQGxxo6DAjZh/edit?usp=sharing&ouid=108361725737586246012&rtpof=true&sd=true">Resume <BsFillPersonLinesFill size={30} /></a>
                 </li>
             </ul>
         </div>
