@@ -56,13 +56,13 @@ const Work = () =>{
                     <div className='mx-4 text-xl py-2 cursor-pointer' onClick={()=>handleClick('Wipro')}>
                         Wipro Technologies
                     </div>
-                    <div className='mx-4 text-xl py-2' onClick={()=>handleClick('Bally')}>
+                    <div className='mx-4 text-xl py-2 cursor-pointer' onClick={()=>handleClick('Bally')}>
                         Bally Technologies
                     </div>
-                    <div className='mx-4 text-xl py-2' onClick={()=>handleClick('NTT')}>
+                    <div className='mx-4 text-xl py-2 cursor-pointer' onClick={()=>handleClick('NTT')}>
                         NTT Data   
                     </div>
-                    <div className='mx-4 text-xl py-2' onClick={()=>handleClick('FIS')}>
+                    <div className='mx-4 text-xl py-2 cursor-pointer' onClick={()=>handleClick('FIS')}>
                         FIS
                     </div>
                     
